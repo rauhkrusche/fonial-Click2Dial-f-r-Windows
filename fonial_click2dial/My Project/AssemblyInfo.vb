@@ -1,4 +1,5 @@
-﻿Imports System
+﻿Imports System.Resources
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -8,11 +9,11 @@ Imports System.Runtime.InteropServices
 
 ' Werte der Assemblyattribute überprüfen
 
-<Assembly: AssemblyTitle("fonial_click2dial")>
-<Assembly: AssemblyDescription("")>
-<Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("fonial_click2dial")>
-<Assembly: AssemblyCopyright("Copyright ©  2017")>
+<Assembly: AssemblyTitle("Click2Dial")>
+<Assembly: AssemblyDescription("Click2Dial-Klasse für fonial Cloud-TK Anlagen")>
+<Assembly: AssemblyCompany("Möller IT-Consulting")>
+<Assembly: AssemblyProduct("Click2Dial")>
+<Assembly: AssemblyCopyright("© 2017 rauhkrusche, ein Projekt von Möller IT-Consulting")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +32,6 @@ Imports System.Runtime.InteropServices
 ' übernehmen, indem Sie "*" eingeben:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.0")>
-<Assembly: AssemblyFileVersion("1.0.0.0")>
+<Assembly: AssemblyVersion("0.1.0.0")>
+<Assembly: AssemblyFileVersion("0.1.0.0")>
+<Assembly: NeutralResourcesLanguage("en")>
